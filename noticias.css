@@ -1,0 +1,39 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background: linear-gradient(to right, white, rgb(228, 156, 212), rgb(214, 36, 205));
+  }
+  
+  
+  
+  /* Estilos para las noticias */
+  .noticia {
+    width: 22%; /* Le da un ancho del 22% para que haya un poco de espacio entre ellas */
+    margin-right: 0%; /* Agrega un poco de espacio entre las noticias */
+    vertical-align: top; /* Hace que las noticias estén alineadas en la parte superior */
+    border-radius: 10px; /* Añade un borde redondeado */
+    background-color: #fff; /* Fondo blanco para el contenido */
+    padding: 10px; /* Agrega un poco de espacio alrededor del contenido */
+    display: inline-block; /* Evitar que se muestren en diferentes lineas */
+    
+  }
+  
+  /* Estilos para la fecha */
+  .noticia .fecha {
+    font-size: 15px;
+    font-style: italic;
+    text-align: left;
+  }
+  
+  /* Estilos para los resúmenes */
+  .noticia p {
+    margin: 10px 0; /* Agrega un poco de espacio entre el resumen y la imagen */
+    font-size: 30px;
+    text-align: center;
+  }
+
+  /* Estilos para las imágenes */
+  .noticia img {
+    display: block; /* Hace que la imagen se centre dentro del contenedor */
+    width: 100%; /* Hace que la imagen se ajuste al ancho de la noticia */
+  }
+  
